@@ -1,0 +1,39 @@
+body {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.outer {
+    height: 80%;
+    width: 80%;
+    background-color: rgb(158, 162, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+.inner {
+    height: 80%;
+    width: 80%;
+    background-color: lightyellow;
+    position: relative;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    align-content: space-between;
+}
+
+.right {
+    right: 0;
+}
+.bottom {
+    bottom: 0;
+}
+
